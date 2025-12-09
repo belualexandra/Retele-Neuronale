@@ -4,8 +4,8 @@ Proiect Retele Neuronale
 
 **Disciplina:** Rețele Neuronale  
 **Instituție:** POLITEHNICA București – FIIR  
-**Student:** [Nume Prenume]  
-**Data:** [Data]  
+**Student:** [Belu Maria Alexandra]  
+**Data:** [25.10.2025]  
 
 ---
 

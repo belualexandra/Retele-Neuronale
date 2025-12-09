@@ -1,0 +1,6 @@
+Metric,Real_Delivery_Time,Simulated_Delivery_Time
+Mean,56.732,59.86142857142857
+Median,55.5,58.0
+Std,22.07091528009886,22.571759945258236
+Min,8.0,9.0
+Max,153.0,128.0
