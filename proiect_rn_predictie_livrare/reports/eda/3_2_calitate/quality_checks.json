@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "check": "Distance_km_negative_values",
+      "count": 0
+    },
+    {
+      "check": "Preparation_Time_min_negative_values",
+      "count": 0
+    },
+    {
+      "check": "Courier_Experience_yrs_negative_values",
+      "count": 0
+    },
+    {
+      "check": "Delivery_Time_min_negative_values",
+      "count": 0
+    },
+    {
+      "check": "duplicated_Order_ID",
+      "count": 0
+    },
+    {
+      "check": "duplicated_rows",
+      "count": 0
+    }
+  ],
+  "top_categories": {
+    "Weather": {
+      "Clear": 5343,
+      "Rainy": 2340,
+      "Foggy": 1155,
+      "Windy": 1073,
+      "Snowy": 1059,
+      "Unknown": 30
+    },
+    "Traffic_Level": {
+      "Medium": 4371,
+      "Low": 4366,
+      "High": 2233,
+      "Unknown": 30
+    },
+    "Time_of_Day": {
+      "Morning": 3450,
+      "Evening": 3290,
+      "Afternoon": 3289,
+      "Night": 941,
+      "Unknown": 30
+    },
+    "Vehicle_Type": {
+      "Bike": 5473,
+      "Scooter": 3394,
+      "Car": 2133
+    }
+  }
+}

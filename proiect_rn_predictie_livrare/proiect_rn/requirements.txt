@@ -1,0 +1,19 @@
+# Nucleul Proiectului (Machine Learning)
+tensorflow==2.20.0
+protobuf>=5.28.0
+numpy
+pandas
+scikit-learn
+
+# Pipeline & Salvare Date
+joblib
+pyyaml
+
+# Vizualizare și Interfață
+streamlit
+matplotlib
+seaborn
+pillow
+
+# Utilitare (pentru benchmark și export)
+h5py

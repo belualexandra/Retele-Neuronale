@@ -1,0 +1,3 @@
+- Distribuția claselor în 'Delivery_Class' este relativ echilibrată (max 65.7%).
+- Nu s-au identificat corelații extrem de ridicate (|r|>0.90) între variabilele numerice.
+- 'Courier_Experience_yrs' are 845 outlieri IQR (~7.68%). Interval IQR: [-11.00, 21.00].

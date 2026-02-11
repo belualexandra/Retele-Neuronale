@@ -1,0 +1,13 @@
+{
+    "class_accuracy": 0.8396103978157043,
+    "class_loss": 0.3833815455436706,
+    "loss": 40.15709686279297,
+    "minutes_loss": 39.75724411010742,
+    "minutes_mae": 4.8733086585998535,
+    "val_class_accuracy": 0.8799999952316284,
+    "val_class_loss": 0.3128422200679779,
+    "val_loss": 18.08243179321289,
+    "val_minutes_loss": 17.721641540527344,
+    "val_minutes_mae": 2.936998128890991,
+    "learning_rate": 9.999999747378752e-06
+}

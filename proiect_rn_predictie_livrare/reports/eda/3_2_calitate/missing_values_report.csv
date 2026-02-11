@@ -1,0 +1,12 @@
+,missing_count,missing_percent
+Order_ID,0,0.0
+Distance_km,0,0.0
+Weather,0,0.0
+Traffic_Level,0,0.0
+Time_of_Day,0,0.0
+Vehicle_Type,0,0.0
+Preparation_Time_min,0,0.0
+Courier_Experience_yrs,0,0.0
+Delivery_Time_min,0,0.0
+Is_RushHour,0,0.0
+Delivery_Class,0,0.0

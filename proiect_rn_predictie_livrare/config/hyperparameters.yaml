@@ -1,0 +1,58 @@
+# ===============================
+# Hyperparameters configuration
+# Project: Food Delivery Time Prediction
+# Model: MLP Multitask (Regression + Classification)
+# ===============================
+
+training:
+  optimizer: adam
+  learning_rate:
+    initial: 0.001
+    scheduler: ReduceLROnPlateau
+    factor: 0.5
+    patience: 3
+    min_lr: 0.00001
+
+  batch_size: 32
+  max_epochs: 40
+
+callbacks:
+  early_stopping:
+    monitor: val_minutes_mae
+    patience: 5
+    restore_best_weights: true
+
+  model_checkpoint:
+    monitor: val_minutes_mae
+    save_best_only: true
+    filename: best_model.keras
+
+model:
+  architecture: MLP_multitask
+  shared_layers:
+    - units: 128
+      activation: relu
+    - units: 64
+      activation: relu
+
+  outputs:
+    regression:
+      name: minutes
+      activation: linear
+      loss: mean_squared_error
+      metrics:
+        - mae
+
+    classification:
+      name: class
+      activation: softmax
+      loss: sparse_categorical_crossentropy
+      metrics:
+        - accuracy
+        - f1_macro
+
+data:
+  train_split: 0.70
+  validation_split: 0.15
+  test_split: 0.15
+  random_state: 42

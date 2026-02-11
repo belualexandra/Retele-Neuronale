@@ -1,0 +1,5 @@
+,min,max
+Distance_km,0.1,20.0
+Preparation_Time_min,5.0,35.0
+Courier_Experience_yrs,0.0,30.0
+Delivery_Time_min,8.0,89.0

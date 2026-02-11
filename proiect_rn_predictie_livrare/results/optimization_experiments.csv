@@ -1,0 +1,3 @@
+Experiment,Val_Accuracy,Val_MAE_Minutes,Val_Loss_Total,Architecture
+Baseline (Etapa 5),0.8358,2.95,17.87,64-32 Neurons
+Optimized (Etapa 6),0.88,2.94,18.08,128-64 Neurons + Dropout
